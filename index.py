@@ -1,5 +1,5 @@
 from discord_webhook import DiscordWebhook, DiscordEmbed
-from flask import Flask, redirect, url_for, request
+from flask import Flask, request
 import os
 
 app = Flask(__name__)
